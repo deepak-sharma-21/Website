@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+.container{
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.navbar{
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 0px 3px;
+    z-index: 10;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navlogo{
+    margin: auto 1rem;
+}
+
+.navbar h4{
+    display: inline-block;
+    margin: .4rem 2rem;
+}
+
+.navlinks{
+    
+}
+
+.para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.heading{
+    position: relative;
+    font-size: 2rem;
+    color: #4070f4;;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.homediv{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homediv img{
+    border-radius: 0rem;
+}
+
+.homediv h3{
+    margin-top: 1rem;
+}
+
+.name{
+    font-size: 3rem;
+    margin-top: 0%;
+}
+
+.name span{
+    position: relative;
+    color: #4070f4;;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.button{
+    font-family: sans-serif;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttondiv img{
+    justify-self: end;
+}
+
+.skillstable{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contactdiv{
+    background-color: #0e2431;
+    color: white;
+    padding: 1rem;
+}
+
+.contactdiv img{
+    width: 2rem;
+    margin: auto 1rem;
+}
+
+.contactinfo{
+    margin: 1rem auto;
+}
+
+@media screen and (min-width:1050px){
+    .skillsdiv{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .projectdiv{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

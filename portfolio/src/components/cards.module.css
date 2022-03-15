@@ -1,0 +1,43 @@
+.skillCard{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillCard img{
+    width: 3rem;
+    margin: auto 1rem;
+}
+
+.skillCard p{
+    margin-right: 1rem;
+}
+
+.projectCard img{
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+}
+
+.projectLinkdiv{
+    margin: auto 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.projectCard div{
+    text-align: left;
+    margin-left: 1rem;
+
+}
+
+.projectheading,.skillheading,.projectTitle{
+    font-weight: 600;
+}
+
+.projectheading{
+    text-align: center;
+}

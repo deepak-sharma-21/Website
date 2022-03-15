@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+html {
+  scroll-behavior: smooth;
+}
